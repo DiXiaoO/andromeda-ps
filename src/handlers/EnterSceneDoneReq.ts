@@ -10,7 +10,7 @@ export async function handle(host: number, client: ClientAddr, data: any) {
           entityType: 1,
           entityId: 16777432,
           motionInfo: {
-            pos: { X: 0, Y: 600, Z: 0 },
+            pos: { X: 0, Y: 300, Z: 0 },
             rot: { Y: 0, },
             speed: {}
           },
@@ -25,70 +25,22 @@ export async function handle(host: number, client: ClientAddr, data: any) {
             guid: "2664326143951479019",
             peerId: 1,
             skillDepotId: 2601,
-            equipIdList: [
-              88543,
-              91523,
-              91553,
-              91513,
-              91433,
-              13303,
-            ],
+            equipIdList: [],
             weapon: {
               entityId: 100663513,
-              gadgetId: 50012502,
-              itemId: 12502,
+              gadgetId: 50013404,
+              itemId: 13404,
               guid: '2664326143951285785',
               level: 80,
               promoteLevel: 5,
               abilityInfo: {},
-              affixMap: {
-                113303: 4,
-              },
+              affixMap: {},
             },
-            reliquaryList: [
-              {
-                itemId: 88543,
-                guid: '2664326143951336725',
-                level: 21,
-              },
-              {
-                itemId: 91523,
-                guid: '2664326143951481191',
-                level: 21,
-              },
-              {
-                itemId: 91553,
-                guid: '2664326143951577623',
-                level: 21,
-              },
-              {
-                itemId: 91513,
-                guid: '2664326143951545289',
-                level: 21,
-              },
-              {
-                itemId: 91433,
-                guid: '2664326143951599549',
-                level: 17,
-              },
-            ],
-            inherentProudSkillList: [
-              462101,
-              462201,
-              462301,
-            ],
-            skillLevelMap: {
-              10461: 2,
-              10462: 6,
-              10463: 6,
-            },
-            proudSkillExtraLevelMap: {
-              4631: 1,
-            },
-            teamResonanceList: [
-              10801,
-            ],
-            wearingFlycloakId: 140005,
+            reliquaryList: [],
+            inherentProudSkillList: [],
+            skillLevelMap: {},
+            proudSkillExtraLevelMap: {},
+            teamResonanceList: [],
             bornTime: 1620699348,
           }
         }

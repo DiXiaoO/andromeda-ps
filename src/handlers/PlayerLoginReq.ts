@@ -86,7 +86,7 @@ export async function handle(host: number, client: ClientAddr, data: any) {
   })
 
   const playerDataNotify = await encodePacket('PlayerDataNotify', {
-    nickName: 'seggs',
+    nickName: 'andromeda',
     serverTime: Date.now() / 1000,
     isFirstLoginToday: false,
     regionId: 1,
